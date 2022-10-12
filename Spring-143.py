@@ -210,6 +210,7 @@ class encypthion_class:
                                        
                                         
                                         long=len(size_data3)
+                                        #print(long)
                                         
                                         if long<128:
                                             limit=1
@@ -308,7 +309,7 @@ class encypthion_class:
                                                                 Times3=28
                                                                 Times4=-4
                                                                
-                                                                
+                                                                limit_find=0
                                                                 
                                                                 
                                                                 while Times4!=60:
@@ -328,16 +329,16 @@ class encypthion_class:
                                                                             res2=1
                                                                             
                                                                             
-                                                                        else:
+                                                                      
                                                                             
                                                                              
-                                                                             if limit_find==1 or l!=64:
-                                                                                 after_block=Calculus
+                                                                if limit_find==1 or l!=64:
+                                                                   after_block=Calculus
                                                                               
                                                                                  
-                                                                             elif limit_find==0 and l==64:
-                                                                                 after_block=res64
-                                                                                 block+=1
+                                                                elif limit_find==0 and l==64:
+                                                                   after_block=res64
+                                                                   block+=1
                                                                              
                                                                              
                                                             else:
