@@ -655,7 +655,7 @@ class encypthion_class:
 
                                     Long_Times=int(size_data3[:8],2)
                                     size_data3=size_data3[8:]
-                                    Times=int(size_data3[:Long_Times],2)
+                                    Times_count=int(size_data3[:Long_Times],2)
                                     size_data3=size_data3[Long_Times:]
                                     Extract_file=0
 
@@ -680,7 +680,7 @@ class encypthion_class:
                                     if Extract_file==0:
                                         Count_add_block2=size_data3
                                     if Extract_file==1:
-                                        while Times!=Times10:
+                                        while Times_count!=Times10:
                                             
                                             Caculus_oct3=size_data3[:4]
                                             size_data3=size_data3[4:]
@@ -751,7 +751,6 @@ class encypthion_class:
                                                             add_block=Calculus[7:OCT1_number_4]+Caculus_oct3+Calculus[OCT1_number_4:]
                                                             add_block1=add_block[:OCT2_number_4]+Caculus_oct3+add_block[OCT2_number_4:]
                                                             
-                                                         
                                                             Count_add_block+=add_block1
 
                                                             add_block1=""
