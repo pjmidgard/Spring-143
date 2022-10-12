@@ -336,7 +336,7 @@ class encypthion_class:
                                                                               
                                                                                  
                                                                              elif limit_find==0 and l==64:
-                                                                                 after_block=res7+res64
+                                                                                 after_block=res64
                                                                                  block+=1
                                                                              
                                                                              
