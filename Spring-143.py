@@ -178,14 +178,21 @@ class encypthion_class:
                                 limit1=0
                                 size_data4="'"
                                 
+                                Times_of_times=0
+                                
                                 
 
                                 
                                 while limit1!=1:    
                                 
                                     size_data4=size_data2
-                                    long_B=len(size_data3)
-                                    long=len(size_data3)
+                                    long_B=len(size_data4)
+                                    long=len(size_data4)
+                                    Times_of_times+=1
+                                    if Times_of_times==100:
+                                        limit1
+                                        
+                                    
                                     
                                         
                                     
