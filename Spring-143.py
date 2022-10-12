@@ -487,15 +487,13 @@ class encypthion_class:
                     else:
                             print('Path is not exists!')
                             raise SystemExit
-                    Portal=2
+                   
                     namea=""
                     namem=""
                     namema="?"
-                    Deep=0
+                   
                  
                     assxw=0
-                    blockw=5
-                    blockw1=4
                     nameas=name
                     nac=len(nameas)
                     name_cut=""
