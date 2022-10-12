@@ -290,7 +290,6 @@ class encypthion_class:
                                                             
                                                             
                                                             if Calculus[Times:Times+4]==Caculus_oct3:
-                                                                res64=res7
                                                                 res64=res7+Calculus8
                                                                 l=len(res64)
                                                                
@@ -326,7 +325,7 @@ class encypthion_class:
                                                                               
                                                                                  
                                                                              elif limit_find==0 and l==64:
-                                                                                 after_block=res7+Calculus8
+                                                                                 after_block=res7+res64
                                                                                  block+=1
                                                                              
                                                                              
