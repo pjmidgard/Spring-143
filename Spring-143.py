@@ -752,6 +752,7 @@ class encypthion_class:
                                                             Count_add_block+=add_block1
 
                                                             add_block1=""
+                                                            add_block=""
                                                             
                                                             
 
