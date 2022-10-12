@@ -346,12 +346,12 @@ class encypthion_class:
                                                             
                                                             
                                                                                                                                                                                          
-                                                if   res5==1 and times_compress<501:
+                                                if   res5==1 and times_compress<201:
                                                     res3+=1
                                                     #print(res3)
                                                     res+=after_block
                                                     
-                                                elif times_compress>500:
+                                                elif times_compress>200:
                                                    res+=Calculus
                                                 else:
                                                     if len(Calculus)==64:
@@ -730,7 +730,7 @@ class encypthion_class:
                                                                 
 
                                                     if res1==0:
-                                                        if long2!=64 or times_compress>500:
+                                                        if long2!=64 or times_compress>200:
                                                             Count_add_block+=Calculus
                                                         else:
                                                             OCT1=Calculus[0:3]
