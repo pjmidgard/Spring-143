@@ -48,7 +48,7 @@ class encypthion_class:
                     
                     nameas=name+".bin"
                     name_bofore=len(nameas)
-                    F=0
+                    
                     
                     
 
