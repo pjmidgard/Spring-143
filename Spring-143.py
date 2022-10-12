@@ -746,9 +746,12 @@ class encypthion_class:
 
                                                             add_block=""
                                                             add_block1=""
+                                                            #print(Caculus_oct3)
 
-                                                            add_block=Calculus[7:OCT1_number_4]+Caculus_oct3+Calculus[OCT1_number_4+4:]
-                                                            add_block1=add_block[:OCT2_number_4]+Caculus_oct3+add_block[OCT2_number_4+4:]
+                                                            add_block=Calculus[7:OCT1_number_4]+Caculus_oct3+Calculus[OCT1_number_4:]
+                                                            add_block1=add_block[:OCT2_number_4]+Caculus_oct3+add_block[OCT2_number_4:]
+                                                            
+                                                         
                                                             Count_add_block+=add_block1
 
                                                             add_block1=""
