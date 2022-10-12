@@ -31,22 +31,19 @@ class encypthion_class:
                             print('Path is not exists!')
                             raise SystemExit
                    
-                    long_block=100
+                    
                         
                     namea=""
                     namem=""
                     namema="?"
-                    Portal=2
+                    
                     assxw=0
-                    blockw=5
-                    blockw1=4
+                    
                     nameas=name
                     nac=len(nameas)
 
                     long=len(name)
                    
-                    Times_compression=1
-                    
                     name_cut=len(".bin")
                     
                     nameas=name+".bin"
