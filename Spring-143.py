@@ -276,9 +276,7 @@ class encypthion_class:
                         
                                                             if Caculus_oct[0:1]=="1":
                                                                 C=1
-                                
-                                
-                                                          
+                                                            
                                                             Caculus_oct=Caculus_oct[1:]
                                                          
                                                             Caculus_oct2=format(Times2//4,'04b')
