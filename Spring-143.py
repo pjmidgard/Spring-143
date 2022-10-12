@@ -195,7 +195,10 @@ class encypthion_class:
                                     
                                     
                                         
-                                    
+                                    import random 
+                                    r1 = random.randint(0, 15)
+                                    smaller=0
+                                    Caculus_oct3=format(r1,'04b')
                                     
                                     info_hex=size_data4
                                     times10=0 
@@ -233,10 +236,7 @@ class encypthion_class:
                                         resf=0
                                         times_compress=0
                                        
-                                        import random 
-                                        r1 = random.randint(0, 15)
-                                        smaller=0
-                                        Caculus_oct3=format(r1,'04b')
+
                                         
         
                                         
@@ -375,10 +375,10 @@ class encypthion_class:
                                             
                                         
                                         times10+=1
-                                        info_hex=Caculus_oct3+res 
+                                        info_hex=res 
                                                                        
                                     
-                                    encypthion=info_hex
+                                    encypthion=Caculus_oct3+info_hex
                                     
                                    
                                     
@@ -670,7 +670,9 @@ class encypthion_class:
                                     size_data3=size_data3[8:]
                                         
 
-                                    Times10=0
+                                    Times10=0                                           
+                                    Caculus_oct3=size_data3[:4]
+                                    size_data3=size_data3[4:]
 
                                     
 
@@ -681,8 +683,8 @@ class encypthion_class:
                                     if Extract_file==1:
                                         while Times_count!=Times10:
                                             
-                                            Caculus_oct3=size_data3[:4]
-                                            size_data3=size_data3[4:]
+ 
+                                            
                                             
                                             block=0
                                             blocks=64
