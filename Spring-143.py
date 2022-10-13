@@ -758,7 +758,7 @@ class encypthion_class:
                                                             if OCT2_number<OCT1_number:
                                                                 
                                                                 OCT1_number_4=OCT1_number*4
-                                                                OCT2_number_4=(OCT2_number*4)*7
+                                                                OCT2_number_4=(OCT2_number*4)+7
                                                                 
                                                                 
                                                                 add_block=Calculus[7:OCT2_number_4]+Caculus_oct3+Calculus[OCT2_number_4:]
