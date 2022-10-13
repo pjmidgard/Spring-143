@@ -742,15 +742,29 @@ class encypthion_class:
                                                             OCT1_number=int(OCT3,2)
                                                             OCT2_number=int(OCT2,2)
 
-                                                            OCT1_number_4=(OCT1_number*4)+7
-                                                            OCT2_number_4=OCT2_number*4
+                                                            
 
                                                             add_block=""
                                                             add_block1=""
                                                             #print(Caculus_oct3)
+                                                            
+                                                            if OCT1_number<OCT2_number:
+                                                                OCT1_number_4=(OCT1_number*4)+7
+                                                                OCT2_number_4=OCT2_number*4
 
-                                                            add_block=Calculus[7:OCT1_number_4]+Caculus_oct3+Calculus[OCT1_number_4:]
-                                                            add_block1=add_block[:OCT2_number_4]+Caculus_oct3+add_block[OCT2_number_4:]
+                                                                add_block=Calculus[7:OCT1_number_4]+Caculus_oct3+Calculus[OCT1_number_4:]
+                                                                add_block1=add_block[:OCT2_number_4]+Caculus_oct3+add_block[OCT2_number_4:]
+                                                                
+                                                            if OCT2_number<OCT1_number:
+                                                                
+                                                                OCT1_number_4=OCT1_number*4
+                                                                OCT2_number_4=(OCT2_number*4)*7
+                                                                
+                                                                
+                                                                add_block=Calculus[7:OCT2_number_4]+Caculus_oct3+Calculus[OCT2_number_4:]
+                                                                add_block1=add_block[:OCT1_number_4]+Caculus_oct3+add_block[OCT1_number_4:]
+                                                            
+                                                                
                                                             
                                                             Count_add_block+=add_block1
 
