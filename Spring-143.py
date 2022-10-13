@@ -746,8 +746,10 @@ class encypthion_class:
 
                                                             add_block=""
                                                             add_block1=""
-                                                            #print(Caculus_oct3)
                                                             
+                                                            if OCT1_number==OCT2_number:
+                                                                                                                                                                    Count_add_block+=Calculus
+                                                                                                                                                                    
                                                             if OCT1_number<OCT2_number:
                                                                 OCT1_number_4=(OCT1_number*4)+7
                                                                 OCT2_number_4=OCT2_number*4
