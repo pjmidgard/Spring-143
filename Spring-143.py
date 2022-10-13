@@ -795,6 +795,20 @@ class encypthion_class:
                                     
                                    
                                     size_data3=Count_add_block2
+
+                                    lenf=len(size_data3)
+                                            
+                                    add_bits118=""
+                                    count_bits=8-lenf%8
+                                    z=0
+                                        
+                                    if count_bits!=8:
+                                        while z<count_bits:
+                                                        add_bits118="0"+add_bits118
+                                                        z=z+1
+                                                                        
+                                                                        
+                                    size_data3=add_bits118+size_data3
                                       
                                     n = int(size_data3, 2)
                                     
