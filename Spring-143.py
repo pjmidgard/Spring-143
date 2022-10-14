@@ -741,11 +741,15 @@ class encypthion_class:
                                                     
                                                     if res5==0:
                                                         #print(res5)
-                                                        if long2!=64 or times_compress>200 or res_one_time==1:
+                                                        if res_one_time==1:
                                                             Count_add_block+=Calculus
                                                         if res_one_time==0:
+                                                          
+                                                          
+                                                            
                                                             
                                                             OCT1=Calculus[0:3]
+                                                           
                                                             OCT2=Calculus[3:7]
                                                             OCT3="1"+OCT1
                                                             
@@ -790,7 +794,7 @@ class encypthion_class:
                                                             
                                                             
 
-                                                    elif res5==1:
+                                                    if res5==1:
                                                         Count_add_block+=Calculus
                                                         
                                                             
@@ -801,7 +805,7 @@ class encypthion_class:
                                                         
                                                     
                                             
-                                            Count_add_block=Count_add_block[:check_long+1]
+                                            
 
                                             size_data3=Count_add_block
                                             Count_add_block2=Count_add_block
