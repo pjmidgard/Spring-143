@@ -768,6 +768,7 @@ class encypthion_class:
 
                                                                 add_block=Calculus[7:OCT1_number_4]+Caculus_oct3+Calculus[OCT1_number_4:]
                                                                 add_block1=add_block[:OCT2_number_4]+Caculus_oct3+add_block[OCT2_number_4:]
+                                                                Count_add_block+=add_block1
                                                                 
                                                             if OCT2_number<OCT1_number:
                                                                 res_one_time=1
@@ -778,17 +779,18 @@ class encypthion_class:
                                                                 
                                                                 add_block=Calculus[7:OCT2_number_4]+Caculus_oct3+Calculus[OCT2_number_4:]
                                                                 add_block1=add_block[:OCT1_number_4]+Caculus_oct3+add_block[OCT1_number_4:]
+                                                                Count_add_block+=add_block1
                                                             
                                                                 
                                                             #print(len(add_block1))
-                                                            Count_add_block+=add_block1
+                                                            
 
                                                             add_block1=""
                                                             add_block=""
                                                             
                                                             
 
-                                                    if res5==1:
+                                                    elif res5==1:
                                                         Count_add_block+=Calculus
                                                         
                                                             
