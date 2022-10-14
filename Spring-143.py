@@ -741,7 +741,7 @@ class encypthion_class:
                                                         if long2!=64 or times_compress>200 or res_one_time==1:
                                                             Count_add_block+=Calculus
                                                         if res_one_time==0:
-                                                            res_one_time=1
+                                                            
                                                             OCT1=Calculus[0:3]
                                                             OCT2=Calculus[3:7]
                                                             OCT3="1"+OCT1
@@ -756,7 +756,10 @@ class encypthion_class:
                                                             
                                                             
                                                                                                                                                                     
+                                                            if OCT1_number==OCT2_number:
+                                                                Count_add_block+=Calculus                                                               
                                                             if OCT1_number<OCT2_number:
+                                                                res_one_time=1
                                                                 OCT1_number_4=(OCT1_number*4)+7
                                                                 OCT2_number_4=OCT2_number*4
 
@@ -764,6 +767,7 @@ class encypthion_class:
                                                                 add_block1=add_block[:OCT2_number_4]+Caculus_oct3+add_block[OCT2_number_4:]
                                                                 
                                                             if OCT2_number<OCT1_number:
+                                                                res_one_time=1
                                                                 
                                                                 OCT1_number_4=OCT1_number*4
                                                                 OCT2_number_4=(OCT2_number*4)+7
@@ -781,7 +785,7 @@ class encypthion_class:
                                                             
                                                             
 
-                                                    else:
+                                                    if res5==1:
                                                         Count_add_block+=Calculus
                                                         
                                                             
