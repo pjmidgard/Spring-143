@@ -377,6 +377,9 @@ class encypthion_class:
                                             
                                         
                                         times10+=1
+                                        if res_one_time==0:
+                                            limit=1
+                                            
                                         info_hex=res 
                                                                        
                                     
