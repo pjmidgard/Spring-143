@@ -221,7 +221,7 @@ class encypthion_class:
                                         long=len(size_data3)
                                         #print(long)
                                         
-                                        if long<100000*8:
+                                        if long<128:
                                             limit=1
                                             smaller=1
                                             limit1=1
@@ -387,6 +387,7 @@ class encypthion_class:
                                         long_after_compression=len(info_hex)
                                         if long>=long_after_compression:
                                             limit=1
+                                            limit1=1
                                         
                                         
                                                                        
