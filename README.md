@@ -7,4 +7,4 @@ We should take 64 bits and find two the same variations for 32-64 bits long and 
 
 Spring-144
 
-Algorithm Spring-143 and paq
+Algorithm Spring-143 and paq9a
