@@ -354,17 +354,14 @@ class encypthion_class:
                                                             
                                                             
                                                                                                                                                                                          
-                                                if   res5==1 and times_compress<201:
+                                                if   res5==1:
                                                     res3+=1
                                                     #print(res3)
                                                     res+=after_block
                                                     
-                                                elif times_compress>200:
+                                                elif res5==0:
                                                    res+=Calculus
-                                                else:
-                                                    if len(Calculus)==64:
-                                                        limit=1
-                                                    res+=Calculus
+                                                
                                                     
                                                 resf+=1
                                                 
