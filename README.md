@@ -8,3 +8,13 @@ We should take 64 bits and find two the same variations for 32-64 bits long and 
 Spring-144
 
 Algorithm Spring-143 and paq9a
+
+pip install cython
+
+pip install paq
+
+or
+
+python -m pip install cython
+
+python -m pip install paq
