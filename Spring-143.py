@@ -337,7 +337,7 @@ class encypthion_class:
                                                                    after_block=Calculus
                                                                               
                                                                                  
-                                                                elif limit_find==0 and l==64 and res_one_time==0:
+                                                                elif limit_find==0 and l==64 and res_one_time==0 and times_compress<201:
                                                                    after_block=res64
                                                                    res_one_time=1
                                                                    block+=1
