@@ -385,7 +385,7 @@ class encypthion_class:
                                             
                                         info_hex=res 
                                         long_after_compression=len(info_hex)
-                                        if long==long_after_compression:
+                                        if long>=long_after_compression:
                                             limit=1
                                         
                                         
